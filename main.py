@@ -2,6 +2,9 @@ import os
 import telebot
 from telebot import types
 import subprocess
+from keep_alive import keep_alive
+
+keep_alive()
 
 TOKEN = '7200872669:AAERLK_ZY72BEk181s_8bm3I7b6GeM4oe88'
 
